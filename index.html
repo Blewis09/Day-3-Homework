@@ -19,36 +19,48 @@
         </div>
         <div class="card" style="width: 18rem; font-size:smaller;">
             <div class="card-body">
-                <h5 clas="card-title">Sign-In</h5>
+                <h5 clas="card-title">Sign In</h5>
                 <form>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label fw-bold">Email (phone for mobile
+                        <label for="exampleInputEmail1">Email (phone for mobile
                             accounts)</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="email" placeholder="Enter Email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
-                        <a href="">Forgot your Password?</a>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <div id="forgot_pass">
+                            <label for="exampleInputPassword1">Password</label>
+                            <a href="">Forgot your Password?</a>
+                        </div>
+                        <input type="password" placeholder="Enter Password" class="form-control"
+                            id="exampleInputPassword1">
                     </div>
                 </form>
             </div>
 
             <div class="card-body">
-                <a href="#" class="btn btn-warning w-100">Sign-In</a>
-                <p>By continuing, you agree to <a href="">Fake Conditions of Use</a> and <a href="">Privacy
-                        Notice</a></p>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Keep Me Signed In. Details</label>
-                </div>
+                <a href="#" class="btn btn-warning w-100">Continue</a>
+                <a href=""> Need Help?</a>
             </div>
         </div>
-        <div>
-            <hr id="HR">
-            <p>New To Amazon?</p>
-                <a href="#" class="btn btn-secondary">Create your Amazon account</a>
+        <div class =  "new_to">
+            <h6><span>New To Amazon?</span</h6>      
         </div>
+        <div>
+            <a href="#" class="btn btn-secondary">Create your Amazon account</a>
+        </div>
+        
+
+        <footer>
+            <hr>
+            <nav>
+                <a href="">Conditions of use</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Help</a>
+                    <hr>
+            </nav>
+            <p>&copy;1996-2020, Fake.com, inc or it's affiliates</p>
+        </footer>
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
